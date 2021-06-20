@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="playground-container">
+  <div class="table-responsive">
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>version</th>
+          <th>Header</th>
+          <th>Header</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for pipeline in data.pipelines %}
+          <tr>
+              <td>1</td>
+              <td>77.123.1</td>
+              <td>random</td>
+              <td>data</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+</div>
+  
+</div>
+{% endblock %}
